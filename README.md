@@ -1,27 +1,38 @@
-# Project Title
-Sawing machine
+# Sawing Machine Control Application
 
 ## Description
-In this project the task is to create Python app, that allows registred Admin, to create specific sawing profiles that are to be used in the actual machine. Admin enters the profile information and customer info. Operator than uses these profiles to cut material in that manner. Operater should be able to choose profile, start and stop it but not edit it. 
-App should simulate the run of that profile and do some calculations of the run and save it into DB. 
+A Python application for managing sawing profiles in an industrial sawing machine. The system has two user roles:
+- **Admin**: Can create and manage sawing profiles, including customer information
+- **Operator**: Can select and execute existing profiles
 
-## Main Features
-[ ] Main page 
-    [ ] Credentials
-    [ ] Sing up? 
-[ ] Admin view 
-    [ ] Create profile 
-    [ ] Edit profile 
-    [ ] View profiles
-    [ ] Upload to machine 
-    [ ] Start/ Stop profile 
-[ ] Operator view 
-    [ ] View Profile 
-    [ ] Upload to machine 
-    [ ] Start/stop 
+The application simulates profile execution, performs calculations, and stores results in a database.
 
-[ ] Profiles
-    [ ] Cutting speed
-    [ ] Cutting force 
-    [ ] Material type 
-    [ ] Batch   
+## Features
+
+### Authentication
+- [ ] Login system
+- [ ] User credentials management
+- [ ] Sign up functionality
+
+### Admin Features
+- [ ] Profile Management
+  - [ ] Create new sawing profiles
+  - [ ] Edit existing profiles
+  - [ ] View all profiles
+- [ ] Machine Integration
+  - [ ] Upload profiles to machine
+  - [ ] Start/Stop profile execution
+  
+### Operator Features
+- [ ] Profile Operations
+  - [ ] View available profiles
+  - [ ] Upload selected profile to machine
+  - [ ] Start/Stop profile execution
+
+### Profile Parameters
+- [ ] Technical Specifications
+  - [ ] Cutting speed
+  - [ ] Cutting force
+  - [ ] Material type selection
+  - [ ] Batch processing settings
+
