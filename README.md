@@ -1,27 +1,27 @@
 # Project Title
+Sawing machine
 
 ## Description
-A brief description of the project.
+In this project the task is to create Python app, that allows registred Admin, to create specific sawing profiles that are to be used in the actual machine. Admin enters the profile information and customer info. Operator than uses these profiles to cut material in that manner. Operater should be able to choose profile, start and stop it but not edit it. 
+App should simulate the run of that profile and do some calculations of the run and save it into DB. 
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
+## Main Features
+[ ] Main page 
+    [ ] Credentials
+    [ ] Sing up? 
+[ ] Admin view 
+    [ ] Create profile 
+    [ ] Edit profile 
+    [ ] View profiles
+    [ ] Upload to machine 
+    [ ] Start/ Stop profile 
+[ ] Operator view 
+    [ ] View Profile 
+    [ ] Upload to machine 
+    [ ] Start/stop 
 
-## Installation
-Steps to install and set up the project:
-1. Step 1
-2. Step 2
-3. Step 3
-
-## Usage
-Instructions on how to use the project.
-
-## Contributing
-Guidelines for contributing to the project.
-
-## License
-Information about the project's license.
-
-## Contact
-Contact information for questions or feedback.
+[ ] Profiles
+    [ ] Cutting speed
+    [ ] Cutting force 
+    [ ] Material type 
+    [ ] Batch   
