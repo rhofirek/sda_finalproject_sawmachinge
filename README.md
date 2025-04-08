@@ -79,14 +79,15 @@ This is schema of our PostgreSQL database with tables and entities
 
 ## Git Workflow & Conventions
 
-1. **Branching**
-   - Create a new branch for each feature or bug fix.
-   - **Naming Convention**: Use short prefixes indicating the purpose of the branch, for example:
-     - `feat/<short-description>` for new features
-     - `fix/<short-description>` for bug fixes
-     - `docs/<short-description>` for documentation changes
-     - `test/<short-description>` for test-related improvements
-     - `refactor/<short-description>` for code refactoring
+**Branching**
+
+- Create a new branch for each feature or bug fix.
+- **Naming Convention**: short prefixes for our branches
+  - `feat/<short-description>` for new features
+  - `fix/<short-description>` for bug fixes
+  - `docs/<short-description>` for documentation changes
+  - `test/<short-description>` for test-related improvements
+  - `refactor/<short-description>` for code refactoring
 
 ## Setup & Usage
 
