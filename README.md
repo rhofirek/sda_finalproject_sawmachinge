@@ -1,38 +1,84 @@
-# Sawing Machine Control Application
+# Sawing Profiles Management Application
 
 ## Description
-A Python application for managing sawing profiles in an industrial sawing machine. The system has two user roles:
-- **Admin**: Can create and manage sawing profiles, including customer information
-- **Operator**: Can select and execute existing profiles
 
-The application simulates profile execution, performs calculations, and stores results in a database.
+A Python-based application designed to manage sawing profiles for industrial saw machines. This system features two main user roles:
+
+- **Admin**: Responsible for creating and modifying sawing profiles, managing customer information, and overseeing the system configuration.
+- **Operator**: Focused on selecting and executing profiles on the machine, as well as monitoring running operations.
+
+The application simulates the execution of sawing profiles, including run-time statistics and performance data. All relevant information is stored in a database for later retrieval and analysis.
 
 ## Features
 
 ### Authentication
+
 - [ ] Login system
 - [ ] User credentials management
 - [ ] Sign up functionality
+- [ ] Role-based access (Admin vs. Operator)
 
 ### Admin Features
+
 - [ ] Profile Management
-  - [ ] Create new sawing profiles
-  - [ ] Edit existing profiles
-  - [ ] View all profiles
+  - [ ] Create, edit, and view sawing profiles
+  - [ ] Manage advanced profile parameters (speed, force, material type)
+  - [ ] Batch processing support
+- [ ] Customer & Machine Management
+  - [ ] Maintain a list of customer machines
+  - [ ] Track which profiles are loaded on each machine
+  - [ ] Record which user performed the upload
 - [ ] Machine Integration
-  - [ ] Upload profiles to machine
+  - [ ] Upload profiles to the machine
   - [ ] Start/Stop profile execution
-  
+  - [ ] Collect run-time data for each machine
+
 ### Operator Features
+
 - [ ] Profile Operations
-  - [ ] View available profiles
-  - [ ] Upload selected profile to machine
-  - [ ] Start/Stop profile execution
+  - [ ] View and select available sawing profiles
+  - [ ] Upload selected profile to the machine
+  - [ ] Start/Stop the sawing operation
+- [ ] Machine Monitoring
+  - [ ] View real-time status
+  - [ ] Access logged run-time statistics
 
 ### Profile Parameters
+
 - [ ] Technical Specifications
   - [ ] Cutting speed
   - [ ] Cutting force
-  - [ ] Material type selection
+  - [ ] Material type
   - [ ] Batch processing settings
 
+### Statistics & Visualization
+
+- [ ] Weekly or monthly run-time summaries
+- [ ] Graphical displays of machine usage
+- [ ] Historical data logging
+
+## Technologies
+
+- **Backend**: Python (Django)
+- **Database**: PostgreSQ
+- **Frontend**: HTML/CSS/JS + Bootstrap + Chart.js
+
+## Goals
+
+1. Provide a clear separation of roles (Admin vs. Operator), each with distinct capabilities.
+2. Enable comprehensive profile management, including batch processing settings.
+3. Offer machine-level tracking for loaded profiles and user interactions.
+4. Gather and display run-time statistics, facilitating real-time and historical monitoring.
+5. Ensure the application is testable, maintainable, and version-controlled using Git & GitHub.
+
+## Setup & Usage
+
+1. **Install Dependencies**: Use a `requirements.txt` file for Python libraries.
+2. **Run Backend**: Start the Django development server by running the following commands:
+
+```bash
+python manage.py migrate  # Apply database migrations
+python manage.py runserver  # Start the Django server
+```
+3. **Run Frontend**: Open HTML page in your browser
+4. **Login & Test**: Create an admin account, add new profiles, and run simulations as the operator.
