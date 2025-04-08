@@ -71,7 +71,7 @@ The application simulates the execution of sawing profiles, including run-time s
 4. Gather and display run-time statistics, facilitating real-time and historical monitoring.
 5. Ensure the application is testable, maintainable, and version-controlled using Git & GitHub.
 
-# Git Workflow & Conventions
+## Git Workflow & Conventions
 
 1. **Branching**
    - Create a new branch for each feature or bug fix.
@@ -91,7 +91,6 @@ The application simulates the execution of sawing profiles, including run-time s
 python manage.py migrate  # Apply database migrations
 python manage.py runserver  # Start the Django server
 ```
+
 3. **Run Frontend**: Open HTML page in your browser
 4. **Login & Test**: Create an admin account, add new profiles, and run simulations as the operator.
-
-#
