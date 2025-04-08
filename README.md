@@ -71,6 +71,12 @@ The application simulates the execution of sawing profiles, including run-time s
 4. Gather and display run-time statistics, facilitating real-time and historical monitoring.
 5. Ensure the application is testable, maintainable, and version-controlled using Git & GitHub.
 
+## Database schema
+
+This is schema of our PostgreSQL database with tables and entities
+
+![ER diagram](images/erp_schema.png)
+
 ## Git Workflow & Conventions
 
 1. **Branching**
