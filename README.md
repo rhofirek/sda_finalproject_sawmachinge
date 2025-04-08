@@ -71,6 +71,17 @@ The application simulates the execution of sawing profiles, including run-time s
 4. Gather and display run-time statistics, facilitating real-time and historical monitoring.
 5. Ensure the application is testable, maintainable, and version-controlled using Git & GitHub.
 
+# Git Workflow & Conventions
+
+1. **Branching**
+   - Create a new branch for each feature or bug fix.
+   - **Naming Convention**: Use short prefixes indicating the purpose of the branch, for example:
+     - `feat/<short-description>` for new features
+     - `fix/<short-description>` for bug fixes
+     - `docs/<short-description>` for documentation changes
+     - `test/<short-description>` for test-related improvements
+     - `refactor/<short-description>` for code refactoring
+
 ## Setup & Usage
 
 1. **Install Dependencies**: Use a `requirements.txt` file for Python libraries.
@@ -82,3 +93,5 @@ python manage.py runserver  # Start the Django server
 ```
 3. **Run Frontend**: Open HTML page in your browser
 4. **Login & Test**: Create an admin account, add new profiles, and run simulations as the operator.
+
+#
